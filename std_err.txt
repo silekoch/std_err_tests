@@ -1,3 +1,4 @@
+Bootstrapping:
 1. Predict a (test) set of n samples
 2. Randomly select subset of n predictions, i.e. draw with replacement
 3. Compute an estimate xi of your performance measurement on that subset
