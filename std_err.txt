@@ -21,10 +21,7 @@ m >> n, m>>10000
 stderr = std([perf_1, ..., perf_m])
 ci = 1.96 * stderr (95%)
 
-opt1 0.9 +- 0.1
-opt2 0.8 +- 0.1
-ci(n)
-
+How to compute stderr if you know the population:
 population = testset + valset + trainset + den ganzen rest
 std(population) = sqrt(sum((x_i - x_mean)**2)/n)
 stderr = std(population) / sqrt(n)
